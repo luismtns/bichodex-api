@@ -37,9 +37,10 @@ export const getAnimals = async (req, res, next) => {
         const animal = new Animal(
           doc.id,
           doc.data().name,
+          doc.data().number,
           doc.data().description,
           doc.data().dreams,
-          doc.data().number
+          doc.data().imagesUrls
         );
         animalArray.push(animal);
       });
