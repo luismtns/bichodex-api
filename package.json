@@ -2,9 +2,9 @@
   "name": "bichodex-api",
   "description": "API do Bichodex 2077",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "node index.js"
   },
+  "type": "module",
   "main": "index.js",
   "engines": {
     "node": "20.x"
