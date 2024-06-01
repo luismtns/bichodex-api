@@ -3,10 +3,8 @@
   "description": "API do Bichodex 2077",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon index.js",
-    "build": "vercel build"
+    "dev": "nodemon index.js"
   },
-  "type": "module",
   "main": "index.js",
   "engines": {
     "node": "20.x"
@@ -22,6 +20,8 @@
     "@babel/core": "^7.24.6",
     "@babel/node": "^7.24.6",
     "@babel/preset-env": "^7.24.6",
-    "nodemon": "^3.1.1"
+    "nodemon": "^3.1.1",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
   }
 }
