@@ -1,7 +1,9 @@
 {
   "name": "bichodex-api",
   "description": "API do Bichodex 2077",
+  "version": "1.0.0",
   "scripts": {
+    "dev": "nodemon index.js",
     "start": "node index.js"
   },
   "type": "module",
